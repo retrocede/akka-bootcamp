@@ -1,7 +1,7 @@
 ﻿using System;
 using Akka.Actor;
 
-namespace WinTail
+namespace WinTail.Actors
 {
     /// <summary>
     /// Actor responsible for serializing message writes to the console.

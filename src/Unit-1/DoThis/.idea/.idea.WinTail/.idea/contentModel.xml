@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\projects\akka-bootcamp\src\Unit-1\DoThis" t="IncludeRecursive">
+      <e p="Actors" t="Include">
+        <e p="ConsoleReaderActor.cs" t="Include" />
+        <e p="ConsoleWriterActor.cs" t="Include" />
+        <e p="ValidationActor.cs" t="Include" />
+      </e>
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="ConsoleReaderActor.cs" t="Include" />
-      <e p="ConsoleWriterActor.cs" t="Include" />
       <e p="Messages" t="Include">
         <e p="Messages.cs" t="Include" />
       </e>
