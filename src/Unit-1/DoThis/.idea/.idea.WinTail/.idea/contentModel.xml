@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\akka-bootcamp\src\Unit-1\DoThis" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ConsoleReaderActor.cs" t="Include" />
+      <e p="ConsoleWriterActor.cs" t="Include" />
+      <e p="Messages" t="Include">
+        <e p="Messages.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="WinTail.csproj" t="IncludeRecursive" />
+      <e p="WinTail.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\tim\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tim\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_WinTail.-153616016.00" t="ExcludeRecursive" />
+  </component>
+</project>
