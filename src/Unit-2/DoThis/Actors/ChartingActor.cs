@@ -9,7 +9,7 @@ using ChartApp.Messages;
 
 namespace ChartApp.Actors
 {
-    public class ChartingActor : ReceiveActor
+    public class ChartingActor : ReceiveActor, IWithUnboundedStash
     {
         /// <summary>
         /// Max number of points in a series
@@ -19,6 +19,7 @@ namespace ChartApp.Actors
         /// Counter for position along x axis
         /// </summary>
         private int XPosCounter = 0;
+        public IStash Stash { get; set; }
         
         #region Messages
         
@@ -93,10 +94,13 @@ namespace ChartApp.Actors
         private void Paused()
         {
             Receive<Metric>(metric => HandleMetricsPaused(metric));
+            Receive<AddSeries>(addSeries => Stash.Stash());
+            Receive<RemoveSeries>(removeSeries => Stash.Stash());
             Receive<TogglePause>(pause =>
             {
                 SetPauseButtonText(false);
                 UnbecomeStacked();
+                Stash.UnstashAll();
             });
         }
         #endregion
