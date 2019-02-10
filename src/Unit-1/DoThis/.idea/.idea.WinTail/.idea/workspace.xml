@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d2ff4e9-eabd-45ac-a66a-74b1613ef53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Actors/FileValidatorActor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actors/TailActor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actors/TailCoordinatorActor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/FileObserver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WinTail/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WinTail/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WinTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WinTail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actors/ConsoleReaderActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Actors/ConsoleReaderActor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actors/ValidationActor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WinTail.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WinTail.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+            <state relative-caret-position="391">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
               <folding>
                 <marker date="1549775671519" expanded="false" signature="6:54" ph="..." />
                 <marker date="1549775671519" expanded="true" signature="73:1425" ph="{...}" />
@@ -38,21 +29,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Actors/FileValidatorActor.cs">
+        <entry file="file://$PROJECT_DIR$/Actors/TailCoordinatorActor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="299">
+              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
               <folding>
-                <marker date="1549775654704" expanded="false" signature="6:34" ph="..." />
-                <marker date="1549775654704" expanded="true" signature="60:1787" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="113:1785" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="240:314" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="373:1669" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="467:781" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="798:1659" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="848:1288" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="1309:1645" ph="{...}" />
-                <marker date="1549775654704" expanded="true" signature="1721:1779" ph="{...}" />
+                <marker date="1549751901202" expanded="false" signature="6:89" ph="..." />
+                <marker date="1549751901202" expanded="true" signature="115:1956" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="170:1954" ph="{...}" />
+                <marker date="1549751901202" expanded="false" signature="185:939" ph="Message Types" />
+                <marker date="1549751901202" expanded="true" signature="216:296" ph="///  Start Tailing the file at path ... " />
+                <marker date="1549751901202" expanded="true" signature="327:626" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="504:616" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="636:715" ph="/// Stop tailing the file at path. ... " />
+                <marker date="1549751901202" expanded="true" signature="745:920" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="845:910" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="998:1233" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1046:1223" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1301:1948" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1477:1923" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1545:1638" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1695:1786" ph="{...}" />
+                <marker date="1549751901202" expanded="true" signature="1811:1905" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Actors/TailActor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="103" column="50" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+              <folding>
+                <marker date="1549777446232" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549777446232" expanded="true" signature="104:3484" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="148:3482" ph="{...}" />
+                <marker date="1549777446232" expanded="false" signature="163:1352" ph="Message Types" />
+                <marker date="1549777446232" expanded="true" signature="194:311" ph="/// Signal that the file has changed, and we need to read the next line. ... " />
+                <marker date="1549777446232" expanded="true" signature="342:517" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="442:507" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="527:628" ph="///  Signal that the OS had an error accessing the file. ... " />
+                <marker date="1549777446232" expanded="true" signature="659:925" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="817:915" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="935:1040" ph="/// Signal to read initial contents of file at actor startup ... " />
+                <marker date="1549777446232" expanded="true" signature="1073:1333" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="1229:1323" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="1639:1737" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="1781:2421" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="2480:3144" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="2528:2781" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="2824:2966" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="3011:3134" ph="{...}" />
+                <marker date="1549777446232" expanded="true" signature="3154:3241" ph="///  ... " />
+                <marker date="1549777446232" expanded="true" signature="3284:3476" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,12 +111,12 @@
         <option value="$PROJECT_DIR$/ConsoleReaderActor.cs" />
         <option value="$PROJECT_DIR$/Actors/ValidationActor.cs" />
         <option value="$PROJECT_DIR$/Actors/ConsoleWriterActor.cs" />
-        <option value="$PROJECT_DIR$/Actors/TailActor.cs" />
         <option value="$PROJECT_DIR$/Actors/TailCoordinatorActor.cs" />
         <option value="$PROJECT_DIR$/Utilities/FileObserver.cs" />
         <option value="$PROJECT_DIR$/Actors/ConsoleReaderActor.cs" />
         <option value="$PROJECT_DIR$/Actors/FileValidatorActor.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Actors/TailActor.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +168,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Unit-2/DoThis/SystemCharting.sln" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -187,12 +218,27 @@
       <workItem from="1549470769377" duration="11324000" />
       <workItem from="1549644106082" duration="7215000" />
       <workItem from="1549739956498" duration="93000" />
-      <workItem from="1549740077854" duration="10791000" />
+      <workItem from="1549740077854" duration="12357000" />
     </task>
+    <task id="LOCAL-00001" summary="Unit 1, lessons 4&amp;5">
+      <created>1549776033864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549776033864</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unit 1, lesson 6">
+      <created>1549777636195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549777636195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29423000" />
+    <option name="totallyTimeSpent" value="30989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,7 +251,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19692059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -242,6 +287,11 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unit 1, lessons 4&amp;5" />
+    <MESSAGE value="Unit 1, lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 1, lesson 6" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -297,32 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Actors/TailCoordinatorActor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1549751901202" expanded="true" signature="6:89" ph="..." />
-            <marker date="1549751901202" expanded="true" signature="115:1956" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="170:1954" ph="{...}" />
-            <marker date="1549751901202" expanded="false" signature="185:939" ph="Message Types" />
-            <marker date="1549751901202" expanded="true" signature="216:296" ph="///  Start Tailing the file at path ... " />
-            <marker date="1549751901202" expanded="true" signature="327:626" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="504:616" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="636:715" ph="/// Stop tailing the file at path. ... " />
-            <marker date="1549751901202" expanded="true" signature="745:920" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="845:910" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="998:1233" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1046:1223" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1301:1948" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1477:1923" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1545:1638" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1695:1786" ph="{...}" />
-            <marker date="1549751901202" expanded="true" signature="1811:1905" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utilities/FileObserver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -337,33 +361,6 @@
             <marker date="1549752149297" expanded="true" signature="1363:1498" ph="{...}" />
             <marker date="1549752149297" expanded="true" signature="1564:1848" ph="{...}" />
             <marker date="1549752149297" expanded="true" signature="1634:1838" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Actors/TailActor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="82" column="69" selection-start-line="82" selection-start-column="69" selection-end-line="82" selection-end-column="69" />
-          <folding>
-            <marker date="1549751320555" expanded="true" signature="6:78" ph="..." />
-            <marker date="1549751320555" expanded="true" signature="104:3128" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="148:3126" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="163:1352" ph="Message Types" />
-            <marker date="1549751320555" expanded="true" signature="194:311" ph="/// Signal that the file has changed, and we need to read the next line. ... " />
-            <marker date="1549751320555" expanded="true" signature="342:517" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="442:507" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="527:628" ph="///  Signal that the OS had an error accessing the file. ... " />
-            <marker date="1549751320555" expanded="true" signature="659:925" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="817:915" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="935:1040" ph="/// Signal to read initial contents of file at actor startup ... " />
-            <marker date="1549751320555" expanded="true" signature="1073:1333" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="1229:1323" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="1666:2397" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="2456:3120" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="2504:2757" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="2800:2942" ph="{...}" />
-            <marker date="1549751320555" expanded="true" signature="2987:3110" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -407,14 +404,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+        <state relative-caret-position="391">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
           <folding>
             <marker date="1549775671519" expanded="false" signature="6:54" ph="..." />
             <marker date="1549775671519" expanded="true" signature="73:1425" ph="{...}" />
             <marker date="1549775671519" expanded="true" signature="80:1423" ph="Program" />
             <marker date="1549775671519" expanded="true" signature="113:1408" ph="{...}" />
             <marker date="1549775671519" expanded="true" signature="209:1402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actors/TailCoordinatorActor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <marker date="1549751901202" expanded="false" signature="6:89" ph="..." />
+            <marker date="1549751901202" expanded="true" signature="115:1956" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="170:1954" ph="{...}" />
+            <marker date="1549751901202" expanded="false" signature="185:939" ph="Message Types" />
+            <marker date="1549751901202" expanded="true" signature="216:296" ph="///  Start Tailing the file at path ... " />
+            <marker date="1549751901202" expanded="true" signature="327:626" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="504:616" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="636:715" ph="/// Stop tailing the file at path. ... " />
+            <marker date="1549751901202" expanded="true" signature="745:920" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="845:910" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="998:1233" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1046:1223" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1301:1948" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1477:1923" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1545:1638" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1695:1786" ph="{...}" />
+            <marker date="1549751901202" expanded="true" signature="1811:1905" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actors/TailActor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="103" column="50" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+          <folding>
+            <marker date="1549777446232" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549777446232" expanded="true" signature="104:3484" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="148:3482" ph="{...}" />
+            <marker date="1549777446232" expanded="false" signature="163:1352" ph="Message Types" />
+            <marker date="1549777446232" expanded="true" signature="194:311" ph="/// Signal that the file has changed, and we need to read the next line. ... " />
+            <marker date="1549777446232" expanded="true" signature="342:517" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="442:507" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="527:628" ph="///  Signal that the OS had an error accessing the file. ... " />
+            <marker date="1549777446232" expanded="true" signature="659:925" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="817:915" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="935:1040" ph="/// Signal to read initial contents of file at actor startup ... " />
+            <marker date="1549777446232" expanded="true" signature="1073:1333" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="1229:1323" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="1639:1737" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="1781:2421" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="2480:3144" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="2528:2781" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="2824:2966" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="3011:3134" ph="{...}" />
+            <marker date="1549777446232" expanded="true" signature="3154:3241" ph="///  ... " />
+            <marker date="1549777446232" expanded="true" signature="3284:3476" ph="{...}" />
           </folding>
         </state>
       </provider>
